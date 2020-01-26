@@ -39,9 +39,7 @@ npm install -g react-native-cli
 ============== gimp ===================================
 1º - software manager 
   1.1 - find gimp
-  sudo add-apt-repository ppa:otto-kesselgulasch/gimp-edg
-  sudo apt-get update
-  sudo apt-get install gimp gimp-gmic gmic
+
   
   1.2 - inkscape
   1.3 - steam
