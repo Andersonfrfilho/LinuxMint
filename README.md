@@ -15,9 +15,9 @@
   #instalar kvm
   sudo apt install qemu-kvm
   whoami
-  sudo adduser anderson kvm
-  sudo chown anderson /dev/kvm
-2º - sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils ia32-libs-multiarch
+2º - sudo adduser anderson kvm
+3º - sudo chown anderson /dev/kvm
+
   #ver usuario
 
 3º - sudo chown $USER /dev/kvm
