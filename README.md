@@ -13,9 +13,13 @@
 1º - software manager 
   1.1 - find android studio
   #instalar kvm
+  sudo apt install qemu-kvm
+  whoami
+  sudo adduser anderson kvm
+  sudo chown anderson /dev/kvm
 2º - sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils ia32-libs-multiarch
   #ver usuario
-whoami
+
 3º - sudo chown $USER /dev/kvm
   #configurando variavel de ambiente.
 4º - sudo nano /etc/environment
